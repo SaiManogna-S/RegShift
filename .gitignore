@@ -1,0 +1,39 @@
+﻿# Environment variables and secrets
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Node.js and build output
+node_modules/
+dist/
+.next/
+
+# Local databases and uploaded files
+*.db
+*.sqlite
+*.sqlite3
+backend/app/uploads/
+backend/data/uploads/
+
+# Local environment files
+.DS_Store
+Thumbs.db
+
+# SQLite runtime files
+*.db-shm
+*.db-wal
+*.db-journal
+
+# Local test documents
+gemini_test.txt
+
+sample_bulletin.txt
