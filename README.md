@@ -48,9 +48,3 @@ RegShift uses Gemini-powered requirement extraction to identify requirements fro
    `npm run dev`
 
 4. Open `http://localhost:5173`.
-
-## Limitations
-This is a prototype using synthetic demonstration data and an available insurance catalogue. It is not integrated with production insurance platforms, and its outputs require human validation before operational or compliance decisions.
-
-## Security
-Never commit API keys, `.env` files, or sensitive documents to the repository.
